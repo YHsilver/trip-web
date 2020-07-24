@@ -4,13 +4,16 @@ import com.dao.GeocitiesDAO;
 import com.entity.Geocities;
 import org.junit.jupiter.api.Test;
 
+import java.util.Date;
 import java.util.List;
 
 
 class GeocitiesDAOTest {
 
+
     @Test
     void getAll() {
+        GeocitiesDAO dao= new GeocitiesDAO();
 
 
     }

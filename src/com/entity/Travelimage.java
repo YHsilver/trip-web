@@ -23,6 +23,19 @@ public class Travelimage {
     private Date timeUpload;
     private String theme;
 
+    public Travelimage() {
+    }
+
+    public Travelimage(String title, String description,  String countryRegionCodeIso,Integer cityCode,  Integer uid, String path, int hot, String theme) {
+        this.title = title;
+        this.description = description;
+        this.cityCode = cityCode;
+        this.countryRegionCodeIso = countryRegionCodeIso;
+        this.uid = uid;
+        this.path = path;
+        this.hot = hot;
+        this.theme = theme;
+    }
 
     //the below attribute not in the database
     private String userName;
@@ -45,13 +58,6 @@ public class Travelimage {
         this.city = city;
     }
 
-    public String getTheme() {
-        return theme;
-    }
-
-    public void setTheme(String theme) {
-        this.theme = theme;
-    }
 
     public String getUserName() {
         return userName;
@@ -76,6 +82,16 @@ public class Travelimage {
 
     public void setHot(int hot) {
         this.hot = hot;
+    }
+
+    @Basic
+    @Column(name = "theme")
+    public String getTheme() {
+        return theme;
+    }
+
+    public void setTheme(String theme) {
+        this.theme = theme;
     }
 
     @Id

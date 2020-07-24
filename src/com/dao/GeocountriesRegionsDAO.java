@@ -15,6 +15,13 @@ public class GeocountriesRegionsDAO extends BaseDAO<GeocountriesRegions> {
         return get(sql,iso);
     }
 
+    public GeocountriesRegions getByName(String name){
+        String sql = "SELECT * FROM geocountries_regions WHERE CountryRegionName = ?";
+        return get(sql,name);
+    }
+
+
+
     public List<GeocountriesRegions> getContainWith(String name){
         String sql = "SELECT * FROM geocountries_regions WHERE CountryRegionName LIKE ?";
         return getForList(sql,"%"+name+"%");

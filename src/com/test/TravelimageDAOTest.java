@@ -13,10 +13,17 @@ class TravelimageDAOTest {
 
     @Test
     void getAll() {
+
     }
 
     @Test
     void save() {
+        TravelimageDAO dao = new TravelimageDAO();
+        Travelimage img=new Travelimage();
+        img.setUserName("asdasda");
+        img.setTheme("asd");
+        dao.save(img);
+
     }
 
     @Test
@@ -25,6 +32,12 @@ class TravelimageDAOTest {
 
     @Test
     void getCount() {
+        TravelimageDAO dao = new TravelimageDAO();
+        System.out.println(dao.getCount());
+
+        System.out.println(dao.getCountWithTitle("%%"));
+        System.out.println(dao.getCountWithTheme("%%"));
+
     }
 
     @Test

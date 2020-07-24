@@ -11,9 +11,9 @@ public class TravelimageDAO extends BaseDAO<Travelimage> {
     }
 
     public void save(Travelimage image) {
-        String sql = "INSERT INTO travelimage(imageId, title, description, latitude, longitude, cityCode, " +
-                "country_RegionCodeIso, uid, path, content) VALUES(?,?,?,?,?,?,?,?,?,?)";
-        update(sql, image.getImageId(), image.getTitle(), image.getDescription(), image.getLatitude(), image.getLongitude(),
+        String sql = "INSERT INTO travelimage( title, description, latitude, longitude, cityCode, " +
+                "countryRegionCodeIso, uid, path, content) VALUES(?,?,?,?,?,?,?,?,?)";
+        update(sql, image.getTitle(), image.getDescription(), image.getLatitude(), image.getLongitude(),
                 image.getCityCode(), image.getCountryRegionCodeIso(), image.getUid(), image.getPath(), image.getContent());
     }
 
@@ -22,9 +22,19 @@ public class TravelimageDAO extends BaseDAO<Travelimage> {
         return get(sql, id);
     }
 
-    public int getCount() {
-        String sql = "SELECT count(id) FROM travelimage";
-        return getForValue(sql);
+    public long getCount() {
+        String sql = "SELECT count(ImageID) FROM travelimage";
+        return (long)getForValue(sql);
+    }
+
+    public long getCountWithTitle(String txt) {
+        String sql = "SELECT count(ImageID) FROM travelimage WHERE title Like ?";
+        return (long)getForValue(sql,txt);
+    }
+
+    public long getCountWithTheme(String txt) {
+        String sql = "SELECT count(ImageID) FROM travelimage WHERE theme Like ?";
+        return (long)getForValue(sql,txt);
     }
 
     /**
@@ -44,5 +54,31 @@ public class TravelimageDAO extends BaseDAO<Travelimage> {
     public List<Travelimage> getForPageByTime(int starIndex,int num) {
         String sql = "SELECT * FROM travelimage ORDER BY timeUpload DESC, ImageID LIMIT ? , ?" ;
         return getForList(sql,starIndex,num);
+    }
+
+
+    public List<Travelimage> getForPageInTitleByHot(String txt, int starIndex,int num) {
+        String sql = "SELECT * FROM travelimage WHERE title LIKE ? ORDER BY hot DESC, ImageID LIMIT ? , ?" ;
+
+        return getForList(sql,txt,starIndex,num);
+    }
+
+    public List<Travelimage> getForPageInTitleByTime(String txt, int starIndex,int num) {
+        String sql = "SELECT * FROM travelimage WHERE title LIKE ? ORDER BY timeUpload DESC, ImageID LIMIT ? , ?" ;
+
+        return getForList(sql,txt,starIndex,num);
+    }
+
+
+    public List<Travelimage> getForPageInThemeByHot(String txt, int starIndex,int num) {
+        String sql = "SELECT * FROM travelimage WHERE theme LIKE ? ORDER BY hot DESC, ImageID LIMIT ? , ?" ;
+
+        return getForList(sql,txt,starIndex,num);
+    }
+
+    public List<Travelimage> getForPageInThemeByTime(String txt, int starIndex,int num) {
+        String sql = "SELECT * FROM travelimage WHERE theme LIKE ? ORDER BY timeUpload DESC, ImageID LIMIT ? , ?" ;
+
+        return getForList(sql,txt,starIndex,num);
     }
 }

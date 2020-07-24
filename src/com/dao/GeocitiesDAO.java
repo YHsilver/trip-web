@@ -6,6 +6,13 @@ import java.util.List;
 
 public class GeocitiesDAO extends BaseDAO<Geocities> {
 
+
+    public Geocities getByCountryAndCityName(String countryISO,String cityName){
+        String sql="SELECT * FROM geocities WHERE CountryRegionCodeISO = ? AND AsciiName = ?";
+        return get(sql,countryISO,cityName);
+    }
+
+
     public Geocities get(int id){
         String sql= "SELECT * FROM geocities WHERE GeoNameID = ?";
         return get(sql,id);
