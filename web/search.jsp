@@ -5,6 +5,7 @@
     <link href="static/css/reset.css" rel="stylesheet">
     <link href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="static/css/search.css">
+    <link href="static/css/paging.css" rel="stylesheet">
     <script src="static/js/jquery-3.3.1.min.js"></script>
     <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <title>Search</title>
@@ -74,8 +75,9 @@
 </main>
 
 </body>
-<script src="static/js/search.js"></script>
 
+<script src="static/js/paging.js"></script>
+<script src="static/js/search.js"></script>
 <script>
 
 </script>

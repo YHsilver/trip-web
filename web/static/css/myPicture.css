@@ -1,0 +1,37 @@
+.myPic-image{
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.myPic{
+    height: 35%;
+    margin: 10px;
+
+}
+
+p,a{
+    font-family: "Arial", "sans-serif";
+    font-size: 16px;
+}
+
+#myPicList{
+
+}
+
+.myPic-info{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.operation{
+    margin: 0;
+    padding: 0;
+}
+
+.operation a{
+    text-decoration: none;
+}

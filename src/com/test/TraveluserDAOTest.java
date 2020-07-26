@@ -5,6 +5,7 @@ import com.dao.TraveluserDAO;
 import com.entity.Traveluser;
 import org.junit.jupiter.api.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -14,17 +15,17 @@ class TraveluserDAOTest {
     @Test
     void getAll() {
         TraveluserDAO dao=new TraveluserDAO();
-        List<Traveluser> users=dao.getAll();
+        Traveluser user=dao.getByName("123456");
 
 
-        String jsonstr= JSONArray.toJSON(users).toString();
-        System.out.println(jsonstr);
+        System.out.println(user.getHistoryImageId());
 
 
     }
 
     @Test
     void save() {
+
     }
 
     @Test

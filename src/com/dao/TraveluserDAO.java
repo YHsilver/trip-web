@@ -6,7 +6,7 @@ import java.util.List;
 
 public class TraveluserDAO extends BaseDAO<Traveluser> {
     public List<Traveluser> getAll() {
-        String sql = "SELECT uid, email, userName, pass, state, dateJoined, dateLastModified FROM traveluser";
+        String sql = "SELECT * FROM traveluser";
         return getForList(sql);
     }
 
@@ -15,13 +15,27 @@ public class TraveluserDAO extends BaseDAO<Traveluser> {
         update(sql, user.getEmail(), user.getUserName(), user.getPass(), user.getState(), user.getDateJoined(), user.getDateLastModified());
     }
 
+    public void update(Traveluser user){
+        String sql = "UPDATE traveluser SET " +
+                "email = ?," +
+                "userName = ?," +
+                "pass = ?," +
+                "State = ?," +
+                "friendsUid = ?," +
+                "historyImageId = ? " +
+                "WHERE UID = ?";
+        update(sql, user.getEmail(), user.getUserName(), user.getPass(), user.getState(), user.getFriendsUid(),
+                user.getHistoryImageId(),user.getUid());
+
+    }
+
     public Traveluser get(int id) {
-        String sql = "SELECT uid, email, userName, pass, state, dateJoined, dateLastModified FROM traveluser WHERE uid = ?";
+        String sql = "SELECT * FROM traveluser WHERE uid = ?";
         return get(sql, id);
     }
 
     public Traveluser getByName(String username) {
-        String sql = "SELECT uid, email, userName, pass, state, dateJoined, dateLastModified FROM traveluser WHERE UserName = ?";
+        String sql = "SELECT * FROM traveluser WHERE UserName = ?";
         return get(sql, username);
     }
 

@@ -17,15 +17,10 @@ public class Traveluser {
     private Timestamp dateJoined;
     private Timestamp dateLastModified;
     private String friendsUid;
+    private String historyImageId;
 
 
-    public String getFriendsUid() {
-        return friendsUid;
-    }
 
-    public void setFriendsUid(String friendsUid) {
-        this.friendsUid = friendsUid;
-    }
 
     @Id
     @Column(name = "UID")
@@ -35,6 +30,16 @@ public class Traveluser {
 
     public void setUid(int uid) {
         this.uid = uid;
+    }
+
+
+    @Basic
+    @Column(name = "friendsUid")
+    public String getFriendsUid() {
+        return friendsUid;
+    }
+    public void setFriendsUid(String friendsUid) {
+        this.friendsUid = friendsUid;
     }
 
     @Basic
@@ -77,6 +82,17 @@ public class Traveluser {
         this.state = state;
     }
 
+
+    @Basic
+    @Column(name = "historyImageId")
+    public String getHistoryImageId() {
+        return historyImageId;
+    }
+
+    public void setHistoryImageId(String historyImageId) {
+        this.historyImageId = historyImageId;
+    }
+
     @Basic
     @Column(name = "DateJoined")
     public Timestamp getDateJoined() {
@@ -108,11 +124,13 @@ public class Traveluser {
                 Objects.equals(pass, that.pass) &&
                 Objects.equals(state, that.state) &&
                 Objects.equals(dateJoined, that.dateJoined) &&
+                Objects.equals(friendsUid, that.friendsUid) &&
+                Objects.equals(historyImageId, that.historyImageId) &&
                 Objects.equals(dateLastModified, that.dateLastModified);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(uid, email, userName, pass, state, dateJoined, dateLastModified);
+        return Objects.hash(uid, email, userName, pass, state, dateJoined, dateLastModified,friendsUid,historyImageId);
     }
 }

@@ -28,6 +28,8 @@ class TravelimageDAOTest {
 
     @Test
     void get() {
+        TravelimageDAO idao = new TravelimageDAO();
+        idao.get(8);
     }
 
     @Test

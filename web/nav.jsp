@@ -24,7 +24,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="favor.jsp">My Favorite</a></li>
                                 <li><a href="upload.jsp">Upload New</a></li>
-                                <li><a href="myUpload.jsp">My Upload</a></li>
+                                <li><a href="myPicture.jsp">My Upload</a></li>
                                 <li><a href="friends.jsp">Friends</a></li>
                                 <li class="divider"></li>
                                 <li><a href="/trip/logoutServlet">Log Out</a></li>

@@ -37,6 +37,7 @@
     <c:forEach items="${sessionScope['new_pic']}" var="item">
         <div class="new">
             <img src="static/image/travel-images/medium/<c:out value="${item.getPath()}"/>" class="new-image"/>
+            <p class="new-info">Title: <c:out value="${item.getTitle()}"/></p>
             <p class="new-info">Theme: <c:out value="${item.getTheme()}"/></p>
             <p class="new-info">Author: <c:out value="${item.getUserName()}"/></p>
             <p class="new-info">Time: <c:out value="${item.getTimeUpload()}"/></p>

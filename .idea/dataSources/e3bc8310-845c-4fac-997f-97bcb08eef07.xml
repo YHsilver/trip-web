@@ -5130,6 +5130,7 @@
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="1154" parent="325" name="Title">
@@ -5270,9 +5271,16 @@
     <column id="1180" parent="327" name="friendsUid">
       <Position>8</Position>
       <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="1181" parent="327" name="PRIMARY">
+    <column id="1181" parent="327" name="historyImageId">
+      <Position>9</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <DefaultExpression>&apos;&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <key id="1182" parent="327" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>UID</ColNames>
       <Primary>1</Primary>

@@ -15,7 +15,6 @@
         if (request.getParameter("imageId") != null && !request.getParameter("imageId").equals("")) {
             request.getRequestDispatcher("/detailPageServlet").forward(request, response);
         } else {
-
             response.sendRedirect("index.jsp");
         }
     }

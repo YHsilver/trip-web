@@ -16,6 +16,11 @@ class GeocountriesRegionsDAOTest {
 
     @Test
     void get() {
+        GeocountriesRegionsDAO rdao = new GeocountriesRegionsDAO();
+
+        GeocountriesRegions region = rdao.getByName("Canada");
+
+        System.out.println(region);
     }
 
     @Test

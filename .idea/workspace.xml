@@ -7,749 +7,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56b97a8d-fa82-49f7-8cb6-e5dedda47ac9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/uploadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/lib/fastjson-1.2.72.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/image/travel-images/medium/1595590055001.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/image/travel-images/medium/1595590413148.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/js/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webPJ_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/service/deleteFavorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/service/getCitiesServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/service/getFavorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/service/getMyPictureServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/service/modifyPictureServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/favor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/friends.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/myPicture.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/paging.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/css/upload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/favor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/friends.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/myPicture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/static/js/paging.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e3bc8310-845c-4fac-997f-97bcb08eef07.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e3bc8310-845c-4fac-997f-97bcb08eef07.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/entity/Travelimage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/entity/Travelimage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/service/HelloAjax.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/service/searchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/searchServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/GeocitiesDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/GeocitiesDAOTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/entity/Traveluser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/entity/Traveluser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/service/detailPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/detailPageServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/service/uploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/uploadServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/c3p0test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/c3p0test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/META-INF/webPJ.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/nav.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/js/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/artifacts/web/static/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/GeocitiesDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/GeocontinentsDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/GeocountriesRegionsDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/TravelimageDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/dao/TraveluserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/entity/Geocities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/entity/Geocontinents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/entity/GeocountriesRegions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/entity/Travelimage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/entity/Travelimagefavor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/entity/Traveluser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/HelloAjax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/addFavorServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/detailPageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/indexPageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/loginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/logoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/registerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/service/searchServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/test/GeocitiesDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/test/TravelimageDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/test/TraveluserDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/test/c3p0test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/com/utils/JdbcUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/dao/TravelimageDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/dao/TraveluserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/entity/Travelimage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/entity/Traveluser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/service/addFavorServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/service/detailPageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/service/indexPageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/classes/production/webPJ/com/test/TravelimageDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/apiguardian-api-1.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/c3p0-0.9.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/commons-beanutils-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/commons-dbutils-1.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/junit-jupiter-api-5.7.0-M1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/junit-platform-commons-1.7.0-M1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/mchange-commons-java-0.2.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/mysql-connector-java-5.1.24-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/opentest4j-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/lib/standard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/detail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/nav.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/register.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/search.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/bootstrap-3.3.7-dist/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/swiper.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/17302010021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/large/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/17302010021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/medium/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6115603234_.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/small/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/17302010021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/make-smallsquare.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-medium/make-tinysquare.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-small/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/square-tiny/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/222222.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/222223.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855174537.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855191275.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855209453.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855213165.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855221959.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855729828.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855735700.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855752464.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5855774224.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5856616479.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5856654945.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5856658791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5856697109.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5857298322.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/5857398054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114850721.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114859969.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114867983.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114881215.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114904363.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114907897.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6114960821.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6115548152.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6115603234.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6119127716.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6119130918.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6119143988.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6592294487.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6592317633.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6592902825.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6592914823.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6596046267.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/6596048341.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8152016381.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8152020963.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8152043422.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8152045688.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8152045872.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8152048712.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8645912379.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8646991554.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8710247776.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8710289254.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8710320515.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8710513053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8711623884.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8711645510.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8730408907.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8731523536.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/8731526170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9493997865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9494282329.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9494464567.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9494470337.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9494472443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9494475161.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9495571869.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9495574327.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9496560520.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9496787858.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9496792166.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9496799098.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9498358806.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9498368556.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9498381010.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9498386718.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9498388516.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9502740177.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9502741759.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504445110.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504448540.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504449928.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504451722.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504606628.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504609042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9504613978.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9505536014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9505893300.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/travel-images/thumb/9505897492.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/web-images/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/web-images/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/web-images/login-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/image/web-images/register-left.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/jquery.base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/swiper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/META-INF/webPJ.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/c3p0-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/BaseDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/GeocitiesDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/GeocontinentsDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/GeocountriesRegionsDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/TravelimageDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/TravelimagefavorDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/dao/TraveluserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/entity/Geocities.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/entity/Geocontinents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/entity/GeocountriesRegions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/entity/Travelimage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/entity/Travelimagefavor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/entity/Traveluser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/HelloAjax.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/addFavorServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/detailPageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/indexPageServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/loginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/logoutServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/registerServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/service/searchServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/test/GeocitiesDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/test/GeocountriesRegionsDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/test/TravelimageDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/test/TraveluserDAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/test/c3p0test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/production/webPJ/com/utils/JdbcUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/myUpload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimageDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TraveluserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TraveluserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/entity/Traveluser.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/entity/Traveluser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/detailPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/detailPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/uploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/uploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TravelimageDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TravelimageDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TraveluserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TraveluserDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/friends.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/friends.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/myUpload.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimageDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TraveluserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TraveluserDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/entity/Traveluser.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/entity/Traveluser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/detailPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/detailPageServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/uploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/uploadServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TravelimageDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TravelimageDAOTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TraveluserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TraveluserDAOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/frieds.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/friends.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/favor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/favor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/friends.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/friends.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/myUpload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/myPicture.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/nav.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/css/swiper.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/swiper.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/uploadNew.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webPJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/webPJ.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -804,6 +139,13 @@
         <item name="travels: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="travelimage: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="travels@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="travels: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="traveluser: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -821,21 +163,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+        <entry file="file://$PROJECT_DIR$/web/favor.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="225">
+              <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+        <entry file="file://$PROJECT_DIR$/web/friends.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1328">
-              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            <state relative-caret-position="462">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/js/friends.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/friends.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -849,8 +201,8 @@
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Jsp File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -880,6 +232,11 @@
       <find>medium</find>
       <find>travel-images</find>
       <find>/web/</find>
+      <find>font</find>
+      <find>save</find>
+      <find>remove(</find>
+      <find>favor</find>
+      <find>sessionScope</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -901,6 +258,8 @@
       <replace>img</replace>
       <replace>theme</replace>
       <replace>/trip/</replace>
+      <replace>myPic</replace>
+      <replace>requestScope</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -912,57 +271,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/register.jsp" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/static/js/login.js" />
-        <option value="$PROJECT_DIR$/web/static/js/register.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/swiper.min.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/swiper.min.css" />
-        <option value="$PROJECT_DIR$/web/static/css/demo.css" />
-        <option value="$PROJECT_DIR$/src/com/entity/Traveluser.java" />
-        <option value="$PROJECT_DIR$/web/static/js/jquery-3.3.1.min.js" />
-        <option value="$PROJECT_DIR$/web/static/js/swiper.min.js" />
-        <option value="$PROJECT_DIR$/src/com/service/indexPageServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/com/entity/Travelimagefavor.java" />
-        <option value="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/service/addFavorServlet2.java" />
-        <option value="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" />
-        <option value="$PROJECT_DIR$/web/detail.jsp" />
-        <option value="$PROJECT_DIR$/src/com/service/addFavorServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/service/detailPageServlet.java" />
-        <option value="$PROJECT_DIR$/web/myUpload.jsp" />
-        <option value="$PROJECT_DIR$/web/favor.jsp" />
-        <option value="$PROJECT_DIR$/web/frieds.jsp" />
-        <option value="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" />
-        <option value="$PROJECT_DIR$/web/static/js/search.js" />
-        <option value="$PROJECT_DIR$/web/static/css/search.css" />
-        <option value="$PROJECT_DIR$/web/index.html" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/nav.jsp" />
         <option value="$PROJECT_DIR$/web/static/js/xlPaging.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/xlPaging.js" />
         <option value="$PROJECT_DIR$/src/com/service/searchServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/search.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/search.js" />
-        <option value="$PROJECT_DIR$/src/com/test/c3p0test.java" />
         <option value="$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/upload.jsp" />
         <option value="$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java" />
         <option value="$PROJECT_DIR$/src/com/test/GeocitiesDAOTest.java" />
-        <option value="$PROJECT_DIR$/web/static/js/upload.js" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/search.jsp" />
         <option value="$PROJECT_DIR$/src/com/entity/Travelimage.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/detail.jsp" />
-        <option value="$PROJECT_DIR$/src/com/service/uploadServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" />
-        <option value="$PROJECT_DIR$/web/search.jsp" />
         <option value="$PROJECT_DIR$/web/nav.jsp" />
         <option value="$PROJECT_DIR$/web/static/css/swiper.min.css" />
+        <option value="$PROJECT_DIR$/web/static/js/favor.css" />
+        <option value="$PROJECT_DIR$/web/detail.jsp" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/service/deleteFavorServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/test/c3p0test.java" />
+        <option value="$PROJECT_DIR$/src/com/entity/Traveluser.java" />
+        <option value="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/com/service/detailPageServlet.java" />
+        <option value="$PROJECT_DIR$/web/static/js/paging.js" />
+        <option value="$PROJECT_DIR$/web/static/js/search.js" />
+        <option value="$PROJECT_DIR$/web/static/css/search.css" />
+        <option value="$PROJECT_DIR$/web/static/css/paging.css" />
+        <option value="$PROJECT_DIR$/web/search.jsp" />
+        <option value="$PROJECT_DIR$/web/static/css/favor.css" />
+        <option value="$PROJECT_DIR$/web/static/js/myPicture.js" />
+        <option value="$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/service/getMyPictureServlet.java" />
+        <option value="$PROJECT_DIR$/web/favor.jsp" />
+        <option value="$PROJECT_DIR$/src/com/service/getFavorServlet.java" />
+        <option value="$PROJECT_DIR$/web/static/js/favor.js" />
+        <option value="$PROJECT_DIR$/web/static/css/myPicture.css" />
+        <option value="$PROJECT_DIR$/web/static/css/upload.css" />
+        <option value="$PROJECT_DIR$/web/myPicture.jsp" />
+        <option value="$PROJECT_DIR$/src/com/service/getCitiesServlet.java" />
         <option value="$PROJECT_DIR$/web/upload.jsp" />
+        <option value="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" />
+        <option value="$PROJECT_DIR$/web/static/js/upload.js" />
+        <option value="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/service/modifyPictureServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/service/uploadServlet.java" />
+        <option value="$PROJECT_DIR$/web/static/js/friends.js" />
+        <option value="$PROJECT_DIR$/web/static/css/friends.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/web/friends.jsp" />
       </list>
     </option>
   </component>
@@ -991,10 +350,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1118" />
-    <option name="y" value="42" />
-    <option name="width" value="992" />
-    <option name="height" value="1062" />
+    <option name="x" value="1115" />
+    <option name="y" value="39" />
+    <option name="width" value="995" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -1020,7 +379,47 @@
             <path>
               <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
@@ -1048,6 +447,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -1088,6 +488,7 @@
       <recent name="com.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javaWeb\webPJ\web\static\css" />
       <recent name="E:\javaWeb\webPJ\web\static\image\web-images" />
       <recent name="E:\javaWeb\webPJ\web" />
     </key>
@@ -1105,22 +506,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.92">
-    <configuration name="GeocitiesDAOTest.fileNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webPJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.GeocitiesDAOTest" />
-      <option name="METHOD_NAME" value="fileNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="GeocitiesDAOTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webPJ" />
       <extension name="coverage">
@@ -1137,7 +522,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TravelimageDAOTest.getCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeocountriesRegionsDAOTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webPJ" />
       <extension name="coverage">
         <pattern>
@@ -1145,9 +530,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TravelimageDAOTest" />
-      <option name="METHOD_NAME" value="getCount" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.test.GeocountriesRegionsDAOTest" />
+      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1169,7 +554,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="c3p0test.fileNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TraveluserDAOTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webPJ" />
       <extension name="coverage">
         <pattern>
@@ -1178,8 +563,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.c3p0test" />
-      <option name="METHOD_NAME" value="fileNameTest" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraveluserDAOTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraveluserDAOTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webPJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.TraveluserDAOTest" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -1261,20 +662,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TravelimageDAOTest.getCount" />
-      <item itemvalue="JUnit.c3p0test.fileNameTest" />
       <item itemvalue="JUnit.GeocitiesDAOTest.getAll" />
-      <item itemvalue="JUnit.GeocitiesDAOTest.fileNameTest" />
       <item itemvalue="JUnit.TravelimageDAOTest.save" />
+      <item itemvalue="JUnit.TraveluserDAOTest.save" />
+      <item itemvalue="JUnit.TraveluserDAOTest.getAll" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.92" />
+      <item itemvalue="JUnit.GeocountriesRegionsDAOTest.get" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GeocountriesRegionsDAOTest.get" />
+        <item itemvalue="JUnit.TraveluserDAOTest.getAll" />
+        <item itemvalue="JUnit.TraveluserDAOTest.save" />
         <item itemvalue="JUnit.TravelimageDAOTest.save" />
         <item itemvalue="JUnit.GeocitiesDAOTest.getAll" />
-        <item itemvalue="JUnit.GeocitiesDAOTest.fileNameTest" />
-        <item itemvalue="JUnit.c3p0test.fileNameTest" />
-        <item itemvalue="JUnit.TravelimageDAOTest.getCount" />
       </list>
     </recent_temporary>
   </component>
@@ -1310,43 +711,46 @@
       <workItem from="1595511065491" duration="9676000" />
       <workItem from="1595522139872" duration="38016000" />
       <workItem from="1595598884172" duration="1266000" />
+      <workItem from="1595653704857" duration="3113000" />
+      <workItem from="1595678036698" duration="21196000" />
+      <workItem from="1595747494922" duration="25649000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GeocitiesDAOTest_getAll - 2020.07.24 at 17h 40m 13s.xml">
-      <configuration name="GeocitiesDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 50m 52s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeocitiesDAOTest_getAll - 2020.07.24 at 17h 40m 18s.xml">
-      <configuration name="GeocitiesDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 51m 31s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeocitiesDAOTest_getAll - 2020.07.24 at 17h 40m 24s.xml">
-      <configuration name="GeocitiesDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 52m 50s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeocitiesDAOTest_getAll - 2020.07.24 at 18h 35m 46s.xml">
-      <configuration name="GeocitiesDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 53m 19s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravelimageDAOTest_save - 2020.07.24 at 19h 36m 36s.xml">
-      <configuration name="TravelimageDAOTest.save" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 55m 29s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravelimageDAOTest_save - 2020.07.24 at 19h 37m 12s.xml">
-      <configuration name="TravelimageDAOTest.save" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 57m 23s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravelimageDAOTest_save - 2020.07.24 at 19h 37m 19s.xml">
-      <configuration name="TravelimageDAOTest.save" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 57m 38s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravelimageDAOTest_save - 2020.07.24 at 19h 38m 15s.xml">
-      <configuration name="TravelimageDAOTest.save" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 57m 50s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravelimageDAOTest_save - 2020.07.24 at 19h 41m 29s.xml">
-      <configuration name="TravelimageDAOTest.save" configurationId="JUnit" />
+    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 01h 00m 08s.xml">
+      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TravelimageDAOTest_save - 2020.07.24 at 19h 41m 35s.xml">
-      <configuration name="TravelimageDAOTest.save" configurationId="JUnit" />
+    <history-entry file="GeocountriesRegionsDAOTest_get - 2020.07.26 at 21h 40m 23s.xml">
+      <configuration name="GeocountriesRegionsDAOTest.get" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154968000" />
+    <option name="totallyTimeSpent" value="204926000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1361,16 +765,16 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.488" visible="true" weight="0.23388705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48326054" visible="true" weight="0.22259136" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.15946844" />
-      <window_info id="Web" order="2" sideWeight="0.512" side_tool="true" weight="0.21196014" />
+      <window_info id="Web" order="2" sideWeight="0.5167394" side_tool="true" weight="0.22259136" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Persistence" order="6" sideWeight="0.5007278" side_tool="true" weight="0.15813954" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" weight="0.40465793" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" weight="0.45560408" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1433,162 +837,372 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Geocities.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/entity/GeocountriesRegions.java" />
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocontinents">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8d810a1b-5b3d-4186-afe0-9ba2539ab681">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8d810a1b-5b3d-4186-afe0-9ba2539ab681">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocountries_regions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8d810a1b-5b3d-4186-afe0-9ba2539ab681">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/friends.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="208">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/upload.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/test/GeocitiesDAOTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/BaseDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocontinentsDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" />
-    <entry file="file://$PROJECT_DIR$/web/index.html" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/search.js" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/nav.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/detail.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Travelimage.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Traveluser.java" />
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/travelimage">
+    <entry file="file://$PROJECT_DIR$/src/com/service/searchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="715">
+          <caret line="55" column="63" lean-forward="true" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/c3p0test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/travelimagefavor">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="8d810a1b-5b3d-4186-afe0-9ba2539ab681">
+        <state projectRestartId="fc662599-b86b-4a9b-a687-a96ad13a7f46">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/service/searchServlet.java" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/detail.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/search.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/upload.js" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/xlPaging.js" />
-    <entry file="file://$PROJECT_DIR$/web/static/js/login.js">
+    <entry file="file://$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="123" column="21" lean-forward="true" selection-start-line="123" selection-start-column="21" selection-end-line="123" selection-end-column="21" />
+        <state relative-caret-position="103">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/xlPaging.js" />
+    <entry file="file://$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk11/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/Java/jdk11/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="659" column="11" lean-forward="true" selection-start-line="659" selection-start-column="11" selection-end-line="659" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/TraveluserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Traveluser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1722">
+          <caret line="123" column="50" selection-start-line="123" selection-start-column="50" selection-end-line="123" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/detailPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/paging.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+          <folding>
+            <element signature="e#40#7456#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/search.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/uploadServlet.java" />
-    <entry file="file://$PROJECT_DIR$/web/favor.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1869">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" />
-    <entry file="file://$PROJECT_DIR$/webPJ.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-395" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/myUpload.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="51" column="26" lean-forward="true" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="21">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/search.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/BaseDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/favor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-174">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/paging.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1218">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/deleteFavorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/getMyPictureServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/favor.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/myPicture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/myPicture.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/upload.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Geocontinents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myPicture.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/search.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/getCitiesServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Geocities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/GeocountriesRegions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocountries_regions">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Travelimage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#3158#3159#0" expanded="true" />
+            <element signature="e#3189#3190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/image/travel-images/medium/1595590055001.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/image/travel-images/medium/1595590413148.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="e#1287#1293#1#HTML" expanded="true" />
+            <element signature="e#1540#1546#1#HTML" expanded="true" />
+            <element signature="e#3535#3541#1#HTML" expanded="true" />
+            <element signature="e#3975#3981#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#4;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4552#4558#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocities">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
+          <filtering>
+            <filter text="5913490" />
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/TravelimageDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+        <state relative-caret-position="102">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/swiper.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/swiper.min.css">
+    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="147">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/swiper.min.js" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/swiper.min.css" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/web.xml" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/service/getFavorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/modifyPictureServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1764">
+          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/uploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/friends.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="189">
+          <caret line="9" column="75" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+    <entry file="file://$PROJECT_DIR$/web/static/css/friends.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/travelimage">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/traveluser">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/favor.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1328">
-          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        <state relative-caret-position="225">
+          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/friends.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

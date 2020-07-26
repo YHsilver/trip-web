@@ -1,0 +1,47 @@
+.favor-image{
+    width: 250px;
+    height: 250px;
+
+
+}
+
+.favor{
+    height: 35%;
+    margin: 10px;
+
+}
+
+p,a{
+    font-family: "Arial", "sans-serif";
+    font-size: 16px;
+}
+
+#favorList{
+
+
+}
+.favor-info{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.operation{
+    margin: 0;
+    padding: 0;
+}
+.operation a{
+    float: left;
+}
+.operation input{
+    float: right;
+}
+
+
+#history-pane p{
+    z-index: 2;
+    background-color: #898c9987;
+}
+
+

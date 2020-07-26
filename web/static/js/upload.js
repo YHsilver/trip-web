@@ -1,10 +1,28 @@
 var btnUploadText = 'Upload';
+
+var type;
+
 $(document).ready(function () {
+
+    var imageId = getQueryVariable("imageId");
+
+    if (imageId) {
+        type = "old";
+        $(".imageShow").show();
+        btnUploadText = 'ReUpload';
+        $("#submit-btn").val("Modify")
+    }else {
+        type = "new";
+        $(".imageShow").hide();
+        $("#submit-btn").val("Submit")
+    }
+    
+
     $("#uploadButton").text(btnUploadText);
-    $(".imageShow").hide();
     $('#uploadButton').click(function () {
         $('#imagePic').click();
     });
+
     $("#imagePic").on("change", function (e) {
         var file = e.target.files[0]; //获取图片资源
         var fileTypes = ["bmp", "jpg", "png", "jpeg"];
@@ -24,7 +42,7 @@ $(document).ready(function () {
             reader.onload = function (arg) {
                 $(".imageShow").show()
                 $("#uploadImageShow").attr("src", arg.target.result)
-                btnUploadText = 'ReUpload'
+                btnUploadText = 'ReUpload';
                 $("#uploadButton").text(btnUploadText)
             }
         } else {
@@ -58,15 +76,16 @@ function emptyImageUpload(selector) {
 }
 
 //handle submit
-$("#submit-btn").click(
-    function () {
-        var title=$("#title_input").val();
-        var theme=$("#theme_input").val();
-        var country=$("#country_input").val();
-        var city=$("#city_input").val();
-        var description=$("#description_input").val();
-        var file=$('#imagePic').get(0).files[0];
 
+
+
+    function upload(imageId) {
+        var title = $("#title_input").val();
+        var theme = $("#theme_input").val();
+        var country = $("#country_input").val();
+        var city = $("#city_input").val();
+        var description = $("#description_input").val();
+        var file = $('#imagePic').get(0).files[0];
 
 
         if (title == "") {
@@ -76,14 +95,14 @@ $("#submit-btn").click(
             $("#title_hide").html("&nbsp;");
         }
 
-        if ( theme == "") {
+        if (theme == "") {
             $("#theme_hide").html("Please input theme");
             return false;
         } else {
             $("#theme_hide").html("&nbsp;");
         }
 
-        if ( country== null) {
+        if (country == null) {
             $("#location_hide").html("Please input country");
             return false;
         } else {
@@ -96,7 +115,7 @@ $("#submit-btn").click(
         } else {
             $("#location_hide").html("&nbsp;");
         }
-        if ( description== "") {
+        if (description == "") {
             $("#description_hide").html("Please input description");
             return false;
         } else {
@@ -104,59 +123,92 @@ $("#submit-btn").click(
         }
 
 
-        if (!file) {
-            $("#img_hide").html("Please input img");
-            return false;
-        } else {
-            $("#img_hide").html("&nbsp;");
+        var url;
+        var formData = new FormData();
+        if (type=="new"){
+            if (!file) {
+                $("#img_hide").html("Please input img");
+                return false;
+            } else {
+                $("#img_hide").html("&nbsp;");
+            }
+
+            url="/trip/uploadServlet";
+        } else if (type=="old") {
+
+            formData.append("imageId", imageId);
+
+            url="/trip/modifyPictureServlet"
         }
 
-
-
-        var formData=new FormData();
-        formData.append("title",title);
-        formData.append("theme",theme);
-        formData.append("country",country);
-        formData.append("city",city);
-        formData.append("description",description);
-        formData.append("file",file);
-
+        formData.append("title", title);
+        formData.append("theme", theme);
+        formData.append("country", country);
+        formData.append("city", city);
+        formData.append("description", description);
+        formData.append("file", file);
 
 
         $.ajax({
             type: "POST",
-            url: "/trip/uploadServlet",
+            url: url ,
 
-            data:formData,
-            async : true,
+            data: formData,
+            async: true,
             dataType: "json",
             processData: false,
-            contentType:false,
+            contentType: false,
 
-            success: function(result){
-                if (result.message=="user_not_exist"){
+            success: function (result) {
+                if (result.message == "user_not_exist") {
                     alert("Please login first")
-                } else if (result.message=="success") {
+                } else if (result.message == "success") {
                     alert("Upload Success");
-                }else {
+                } else {
                     alert(result.message);
                 }
             }
-    })
-
-
-
-
-
-
+        })
     }
-);
+
+function getCities() {
+    var option = $("#country_input option:selected").val();
+
+    $.ajax({
+        type: "POST",
+        url: "/trip/getCitiesServlet",
+
+        data: {
+            country: option
+        },
+        async: true,
+        dataType: "json",
+        success: function (resp) {
+            var cities = resp.cities;
+
+            var obj = $("#city_input");
+            obj.empty();
+
+            obj.append("<option disabled selected value>Chose City</option>");
+            for (var k in cities) {
+                obj.append("<option value='" + cities[k] + "'>" + cities[k] + "</option>"); //为Select追加一个Option(下拉项)
+            }
+        }
+    })
+}
 
 
-
-
-
-
+function getQueryVariable(variable) {
+    var query = window.location.search.substring(1);
+    var vars = query.split("&");
+    for (var i = 0; i < vars.length; i++) {
+        var pair = vars[i].split("=");
+        if (pair[0] == variable) {
+            return pair[1];
+        }
+    }
+    return (false);
+}
 
 
 
