@@ -1,10 +1,9 @@
-
 var pageNums = ""; //total pages
 var nowPage = 1;  //now page index
 var pageSize = 3;
 
 $.ajax({
-        url: '/trip/getFavorServlet',
+        url: '/trip/getFriendsFavorServlet',
         data: {
             startIndex: (1 - 1) * pageSize,         //(PageIndex-1)*PageSize
         },
@@ -13,8 +12,7 @@ $.ajax({
         success: function (rsp) {
             pageNums = Math.ceil((rsp.totalNum) / pageSize);//将返回的总页数值给全局变量
             msgReload();
-            $("#favorList").load(location.href + " #favorList");
-            $("#history-pane").load(location.href + " #history-pane");
+            $("#friendsFavorList").load(location.href + " #friendsFavorList");
         }
     }
 );
@@ -22,7 +20,6 @@ $.ajax({
 
 //重置分页插件
 function msgReload() {
-
     new Paging("page", {
         nowPage: nowPage, // 当前页码
         pageNum: pageNums, // 总页码
@@ -41,7 +38,7 @@ function msgReload() {
 function getlist(num) {
     nowPage = num;
     $.ajax({
-        url: '/trip/getFavorServlet',
+        url: '/trip/getFriendsFavorServlet',
         data: {
             startIndex: (num - 1) * pageSize,         //(PageIndex-1)*PageSize
         },
@@ -50,36 +47,7 @@ function getlist(num) {
         success: function (rsp) {
             pageNums = Math.ceil((rsp.totalNum) / pageSize);//将返回的总页数值给全局变量
             msgReload();
-            $("#favorList").load(location.href + " #favorList")
+            $("#friendsFavorList").load(location.href + " #friendsFavorList")
         }
     });
 }
-
-
-//处理删除
-function deleteFavor(id) {
-    $.ajax({
-        url: "/trip/deleteFavorServlet",
-        data: {
-            imageId: id
-        },
-        type: "post",
-        dataType: "json",
-        success: function (rsp) {
-            if (rsp.message == "success") {
-                alert("delete success");
-                window.location.reload();
-            } else if (rsp.message == "not_exist") {
-
-                alert("delete failed! please try again later ")
-            } else {
-                alert(rsp.message);
-            }
-        }
-
-    })
-
-
-}
-
-

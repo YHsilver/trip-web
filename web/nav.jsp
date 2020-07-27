@@ -22,7 +22,7 @@
                                     value="${sessionScope.username}"/>
                                 <span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a href="favor.jsp">My Favorite</a></li>
+                                <li><a href="myFavor.jsp">My Favorite</a></li>
                                 <li><a href="upload.jsp">Upload New</a></li>
                                 <li><a href="myPicture.jsp">My Upload</a></li>
                                 <li><a href="friends.jsp">Friends</a></li>

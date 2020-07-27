@@ -11,10 +11,12 @@
 
 }
 
-p,a{
+div >  p, div > a{
     font-family: "Arial", "sans-serif";
     font-size: 16px;
 }
+
+.history-pane  p, .history-pane a
 
 #favorList{
 

@@ -23,7 +23,6 @@
 
             <c:forEach items="${sessionScope['hot_pic']}" var="item">
                 <div class="swiper-item">
-
                     <img src="static/image/travel-images/medium/<c:out value="${item.getPath()}"/>"
                          class="hot-img" alt="banner"/>
                 </div>

@@ -51,11 +51,11 @@
                     </tr>
                     <tr>
                         <td>Country</td>
-                        <td><c:out value="${sessionScope.image.getCountryRegionCodeIso()}"/></td>
+                        <td><c:out value="${sessionScope.image.getCountry()}"/></td>
                     </tr>
                     <tr>
                         <td>City</td>
-                        <td><c:out value="${sessionScope.image.getCityCode()}"/></td>
+                        <td><c:out value="${sessionScope.image.getCity()}"/></td>
                     </tr>
                     <tr>
                         <td>Time</td>

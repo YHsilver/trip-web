@@ -34,10 +34,19 @@ public class TraveluserDAO extends BaseDAO<Traveluser> {
         return get(sql, id);
     }
 
+
+
     public Traveluser getByName(String username) {
         String sql = "SELECT * FROM traveluser WHERE UserName = ?";
         return get(sql, username);
     }
+
+
+    public List<Traveluser> getContainName(String username) {
+        String sql = "SELECT * FROM traveluser WHERE UserName LIKE ?";
+        return getForList(sql, "%"+username+"%");
+    }
+
 
     public long getCountWithName(String name) {
         String sql = "SELECT count(uid) FROM traveluser WHERE UserName = ?";

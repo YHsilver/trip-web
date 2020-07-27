@@ -13,12 +13,10 @@ public class c3p0test {
 
     @Test
     private static  void test() throws SQLException {
-        DataSource dataSource=new ComboPooledDataSource("webApp");
-        System.out.println(dataSource.getConnection());
 
-        QueryRunner queryRunner=new QueryRunner();
 
     }
+
 
 
 }

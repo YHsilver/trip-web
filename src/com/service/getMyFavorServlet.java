@@ -18,8 +18,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-@WebServlet(name = "getFavorServlet", urlPatterns = "/getFavorServlet")
-public class getFavorServlet extends HttpServlet {
+@WebServlet(name = "getMyFavorServlet", urlPatterns = "/getMyFavorServlet")
+public class getMyFavorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String startIndex = request.getParameter("startIndex");
         doRequest(request, response, Integer.parseInt(startIndex),2);
@@ -57,13 +57,14 @@ public class getFavorServlet extends HttpServlet {
 
         for (Travelimage img : favorImgs) {
             img.setUserName(udao.get(img.getUid()).getUserName());
-        }
 
+        }
 
         request.getSession().setAttribute("favor", favorImgs);
 
+
         if (type==1){
-            response.sendRedirect("favor.jsp");
+            response.sendRedirect("myFavor.jsp");
 
         }else if (type==2){
             long totalNum = fdao.getCountByUid(user.getUid());

@@ -5,7 +5,7 @@
 <head>
     <link href="static/css/reset.css" rel="stylesheet">
     <link href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="static/css/favor.css" rel="stylesheet">
+    <link href="static/css/myFavor.css" rel="stylesheet">
     <link href="static/css/paging.css" rel="stylesheet">
     <script src="static/js/jquery-3.3.1.min.js"></script>
     <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
@@ -14,23 +14,14 @@
 <body>
 <c:import url="nav.jsp"/>
 
-<%--
-查看别人的list
-
-1.点击链接带参数 /trip/getFavorServlet?currUsername=xxx
-2.servlet中设置session currUsername=xxx
-3.jsp比较两个用户名是否相同，设置布局
-
---%>
-
 <%
     if (session.getAttribute("favor") == null) {
-        response.sendRedirect("/trip/getFavorServlet");
+        response.sendRedirect("/trip/getMyFavorServlet");
     }
 %>
 <div>
-    <div id="favor-box" class="col-md-8">
 
+    <div id="favor-box" class="col-md-8">
         <div id="favorList" class="">
             <c:forEach items="${sessionScope['favor']}" var="item">
                 <div class="favor row panel panel-default">
@@ -58,12 +49,9 @@
         </div>
     </div>
     <div id="right-pane" class="col-md-4">
-
-
         <div id="history-pane">
             <p class="list-group-item ">History</p>
             <c:forEach items="${sessionScope['history']}" var="item">
-
                 <a href="/trip/detailPageServlet?imageId=<c:out value="${item.getImageId()}"/>" class="list-group-item">
                     <c:out value="${item.getTitle()}"/>
                 </a>
@@ -71,9 +59,12 @@
 
         </div>
     </div>
+
+
+
 </div>
 <script src="static/js/paging.js"></script>
-<script src="static/js/favor.js" type="text/javascript"></script>
+<script src="static/js/myFavor.js" type="text/javascript"></script>
 </body>
 
 </html>
