@@ -48,8 +48,7 @@
             <input type="checkbox" name="authority" id="authority" data-size="small"
                    <c:if test="${sessionScope.userState}">
                        <c:out value="checked"/>
-                   </c:if>
-                   checked/>
+                   </c:if>/>
         </div>
 
         <hr/>

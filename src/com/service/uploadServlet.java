@@ -20,6 +20,7 @@ import javax.servlet.http.Part;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URLDecoder;
 import java.util.Date;
 import java.util.List;
 
@@ -28,6 +29,7 @@ import java.util.List;
 @MultipartConfig
 public class uploadServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
 
         String username = (String) req.getSession().getAttribute("username");
         if (username == null || username.equals("")) {
@@ -59,12 +61,12 @@ public class uploadServlet extends HttpServlet {
         }
 
 
-        req.getRequestDispatcher("/upload.jsp").forward(req,resp);
+        req.getRequestDispatcher("/upload.jsp").forward(req, resp);
 
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
+        request.setCharacterEncoding("utf-8");
         String username = (String) request.getSession().getAttribute("username");
         if (username == null || username.equals("")) {
             response.getWriter().println("{\"message\": \"user_not_exist\"}");
@@ -80,10 +82,9 @@ public class uploadServlet extends HttpServlet {
 
         String title = request.getParameter("title");
         String theme = request.getParameter("theme");
+        String description = request.getParameter("description");
         String country = request.getParameter("country");
         String city = request.getParameter("city");
-        String description = request.getParameter("description");
-
 
         String savePath = request.getServletContext().getRealPath("/static/image/travel-images");
         Part part = request.getPart("file");
@@ -112,7 +113,7 @@ public class uploadServlet extends HttpServlet {
 
         System.out.println(JSONArray.toJSON(img));
         idao.save(img);
-        response.getWriter().println("{\"message\": \"Upload Success!!\"}");
+        response.getWriter().println("{\"message\": \"success\"}");
 
     }
 

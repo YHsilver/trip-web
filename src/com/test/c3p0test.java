@@ -6,6 +6,8 @@ import org.apache.commons.dbutils.QueryRunner;
 import org.junit.jupiter.api.Test;
 
 import javax.sql.DataSource;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.sql.SQLException;
 import java.util.Date;
 
@@ -16,7 +18,4 @@ public class c3p0test {
 
 
     }
-
-
-
 }

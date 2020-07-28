@@ -57,26 +57,26 @@ function getlist(num) {
 
 //处理删除
 function deleteMyPic(id) {
-    $.ajax({
-        url: "/trip/deleteMyPictureServlet",
-        data: {
-            imageId: id
-        },
-        type: "post",
-        dataType: "json",
-        success: function (rsp) {
-            if (rsp.message == "success") {
-                alert("delete success");
-                window.location.reload();
-            } else if (rsp.message == "not_exist") {
+    if (confirm("Are You Confirm Delete?")){
+        $.ajax({
+            url: "/trip/deleteMyPictureServlet",
+            data: {
+                imageId: id
+            },
+            type: "post",
+            dataType: "json",
+            success: function (rsp) {
+                if (rsp.message == "success") {
+                    alert("delete success");
+                    window.location.reload();
+                } else if (rsp.message == "not_exist") {
 
-                alert("delete failed! please try again later ")
-            } else {
-                alert(rsp.message);
+                    alert("delete failed! please try again later ")
+                } else {
+                    alert(rsp.message);
+                }
             }
-        }
 
-    })
-
-
+        })
+    }
 }

@@ -141,11 +141,11 @@ function emptyImageUpload(selector) {
             url="/trip/modifyPictureServlet"
         }
 
-        formData.append("title", title);
-        formData.append("theme", theme);
+        formData.append("title",title);
+        formData.append("theme",theme);
         formData.append("country", country);
         formData.append("city", city);
-        formData.append("description", description);
+        formData.append("description",description);
         formData.append("file", file);
 
 
@@ -164,6 +164,7 @@ function emptyImageUpload(selector) {
                     alert("Please login first")
                 } else if (result.message == "success") {
                     alert("Upload Success");
+                    window.location.href="myPicture.jsp"
                 } else {
                     alert(result.message);
                 }
@@ -209,15 +210,4 @@ function getQueryVariable(variable) {
     }
     return (false);
 }
-
-
-
-
-
-
-
-
-
-
-
 

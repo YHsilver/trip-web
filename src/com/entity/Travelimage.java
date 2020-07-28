@@ -4,6 +4,8 @@ import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.sql.Date;
 import java.util.Objects;
 
@@ -26,7 +28,7 @@ public class Travelimage {
     public Travelimage() {
     }
 
-    public Travelimage(String title, String description,  String countryRegionCodeIso,Integer cityCode,  Integer uid, String path, int hot, String theme) {
+    public Travelimage(String title, String description, String countryRegionCodeIso, Integer cityCode, Integer uid, String path, int hot, String theme) {
         this.title = title;
         this.description = description;
         this.cityCode = cityCode;
@@ -66,6 +68,7 @@ public class Travelimage {
     public void setUserName(String userName) {
         this.userName = userName;
     }
+
     public Date getTimeUpload() {
         return timeUpload;
     }

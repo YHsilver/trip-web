@@ -5,9 +5,11 @@
     <link href="static/css/reset.css" rel="stylesheet">
     <link href="static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/css/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/index.css">
     <script src="static/js/jquery-3.3.1.min.js"></script>
-
     <script src="static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="static/js/swiper.min.js"></script>
+
     <title>Home</title>
 </head>
 <body>
@@ -18,21 +20,25 @@
     }
 %>
 <div id="hotPic">
-    <div id="swiper-container" class="swiper-container">
-        <div class="swiper-wrapper">
-
+    <div id="swiper-box" class="swiper-container bannerPc banner-swiper banner-swiper2">
+        <ul class="swiper-wrapper">
             <c:forEach items="${sessionScope['hot_pic']}" var="item">
-                <div class="swiper-item">
-                    <img src="static/image/travel-images/medium/<c:out value="${item.getPath()}"/>"
-                         class="hot-img" alt="banner"/>
-                </div>
+                <li class="swiper-slide">
+                    <a href="/trip/detailPageServlet?imageId=<c:out value="${item.getImageId()}"/>">
+                        <img src="static/image/travel-images/medium/<c:out value="${item.getPath()}"/>"
+                             class="hot-image"/>
+                    </a>
+                </li>
             </c:forEach>
-        </div>
+        </ul>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-pagination"></div>
     </div>
+
 </div>
 
 <div id="newPic" class="newPic">
-
     <c:forEach items="${sessionScope['new_pic']}" var="item">
         <div class="new">
             <img src="static/image/travel-images/medium/<c:out value="${item.getPath()}"/>" class="new-image"/>
@@ -45,67 +51,7 @@
     </c:forEach>
 
 </div>
+<script src="static/js/index.js"></script>
 </body>
-<style>
-    #hotPic {
-        text-align: center;
-    }
-
-    #swiper-container {
-        margin: 0 auto;
-    }
-
-
-    .hot-img {
-        width: inherit;
-        height: inherit;
-        object-fit: cover;
-    }
-
-    .newPic {
-        display: flex;
-        justify-content: space-between;
-        margin: 20px;
-    }
-
-    .new {
-        width: 400px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .new-image {
-        width: 300px;
-        height: 200px;
-    }
-
-    .new-info {
-        margin: 10px;
-        font-family: "Arial", "sans-serif";
-        font-size: 16px;
-    }
-
-    .newPic a {
-        font: 1em "Segoe Script";
-        text-decoration: none;
-        font-size: 16px;
-        padding: 3px 2px;
-    }
-
-
-</style>
-<script src="static/js/swiper.min.js"></script>
-<script>
-
-    $(".swiper-container").carousel({
-        width: 1500,
-        height: 550,
-        speed: 3000,
-        needPrevAndNextBtnGroup: true,
-        needPagination: true
-    });
-</script>
 
 </html>

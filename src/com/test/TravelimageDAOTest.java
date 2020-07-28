@@ -5,21 +5,34 @@ import com.dao.TraveluserDAO;
 import com.entity.Travelimage;
 import org.junit.jupiter.api.Test;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class TravelimageDAOTest {
 
     @Test
-    void getAll() {
+    void getAll() throws UnsupportedEncodingException {
+        //set img theme
+//        TravelimageDAO dao = new TravelimageDAO();
+//        List<Travelimage> list =dao.getAll();
+//        int i = 1;
+//        for (Travelimage img:list){
+//
+//            img.setTheme("theme"+i);
+//            i++;
+//            dao.update(img);
+//        }
+
 
     }
 
     @Test
     void save() {
         TravelimageDAO dao = new TravelimageDAO();
-        Travelimage img=new Travelimage();
+        Travelimage img = new Travelimage();
         img.setUserName("asdasda");
         img.setTheme("asd");
         dao.save(img);
@@ -45,13 +58,12 @@ class TravelimageDAOTest {
     @Test
     void getForPage() {
         TravelimageDAO dao = new TravelimageDAO();
-        List<Travelimage> hotest = dao.getForPageByHot(0,5);
+        List<Travelimage> hotest = dao.getForPageByHot(0, 5);
 
 
-        for (Travelimage travelimage: hotest){
+        for (Travelimage travelimage : hotest) {
             System.out.println(travelimage.getPath());
         }
-
 
 
     }
