@@ -122,16 +122,10 @@
                     </tr>
                 </c:forEach>
 
-
                 </tbody>
             </table>
-
-
         </div>
-
     </div>
-
-
 </div>
 
 <script src="static/js/friends.js"></script>
