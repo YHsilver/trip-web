@@ -54,7 +54,7 @@ public class getFriendsFavorServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String uid =  request.getParameter("uid");
         if (uid==null||uid.equals("")){
-            response.sendRedirect("/friends.jsp");
+            response.sendRedirect("friends.jsp");
             return;
         }
 
