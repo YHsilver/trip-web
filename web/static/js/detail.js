@@ -85,3 +85,79 @@ window.onload = function () {
 
     };
 };
+
+
+function sendComment(imageId) {
+    var comment = $("#comment-input").val();
+    if (comment != null && comment != "") {
+        $.ajax({
+            url: "/trip/addCommentServlet",
+            type: "post",
+            data: {
+                imageId: imageId,
+                comment: comment
+            },
+            dataType: "json",
+            async: true,
+            success: function (resp) {
+                if (resp.message == "success") {
+                    alert("send comment success");
+                    $("#comments-box").load(location.href + " #comments-box");
+                } else if (resp.message == "user_not_exist") {
+                    alert("please  login in first");
+                } else {
+                    alert(resp.message)
+                }
+            }
+        })
+    } else {
+        alert("please input something ")
+    }
+
+}
+
+function agreeComment(cid) {
+    $.ajax({
+        url: "/trip/agreeCommentServlet",
+        type: "post",
+        data: {
+            cid: cid
+        },
+        dataType: "json",
+        async: true,
+        success: function (resp) {
+            if (resp.message == "success") {
+                alert("agree comment success");
+                $("#comments-box").load(location.href + " #comments-box");
+            } else if (resp.message == "user_not_exist") {
+                alert("please  login in first");
+            } else {
+                alert(resp.message)
+            }
+        }
+    })
+}
+
+$(document).ready(function () {
+    $('input[type=radio][name=order]').change(function () {
+        $.ajax({
+            url: "/trip/getCommentsServlet",
+            type: "post",
+            data: {
+                iid: $("#orders").attr("iid"),
+                order: this.value
+            },
+            dataType: "json",
+            async: true,
+            success: function (resp) {
+                if (resp.message == "success") {
+                    $("#comments-box").load(location.href + " #comments-box");
+                } else {
+                    alert(resp.message)
+                }
+            }
+        })
+
+
+    });
+});

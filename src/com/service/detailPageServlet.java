@@ -1,9 +1,7 @@
 package com.service;
 
-import com.dao.GeocitiesDAO;
-import com.dao.GeocountriesRegionsDAO;
-import com.dao.TravelimageDAO;
-import com.dao.TraveluserDAO;
+import com.dao.*;
+import com.entity.Comments;
 import com.entity.Travelimage;
 import com.entity.Traveluser;
 
@@ -47,9 +45,9 @@ public class detailPageServlet extends HttpServlet {
             List<String> historyImgIdList = new ArrayList<>(10);
 
 
-            String oldHistoryImgIdStr= user.getHistoryImageId();
+            String oldHistoryImgIdStr = user.getHistoryImageId();
 
-            if (oldHistoryImgIdStr!=null) {
+            if (oldHistoryImgIdStr != null) {
                 String[] historyImgId = oldHistoryImgIdStr.split(",");
                 historyImgIdList.addAll(Arrays.asList(historyImgId));
 
@@ -59,12 +57,17 @@ public class detailPageServlet extends HttpServlet {
 
             historyImgIdList.add(imageIdStr);
 
-            String historyImgIdStr=String.join(",",historyImgIdList);
+            String historyImgIdStr = String.join(",", historyImgIdList);
 
             user.setHistoryImageId(historyImgIdStr);
             udao.update(user);
-
         }
+
+        //set comments session
+        CommentsDAO comdao = new CommentsDAO();
+        List<Comments> comments = comdao.getAllByHotForImg(imageId);
+        request.getSession().setAttribute("comments", comments);
+
 
         request.getSession().setAttribute("image", img);
         response.sendRedirect("detail.jsp");

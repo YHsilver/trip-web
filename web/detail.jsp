@@ -552,10 +552,49 @@
             </div>
         </div>
     </div>
+    <div id="bottom">
+
+        <h4>Comments:</h4>
+        <div class="form-inline">
+            <input type="text" id="comment-input" class="form-control">
+            <input type="button" value="send" id="comment-send" class=" btn btn-default"
+                   onclick="sendComment(${sessionScope.image.getImageId()})">
+        </div>
+
+
+        <div id="orders" iid="${sessionScope.image.getImageId()}">
+            <span>order</span>
+            <input type="radio" name="order" id="order1" value="hot" checked> <span>hot</span>
+            <input type="radio" name="order" id="order2" value="time"><span>newest</span>
+        </div>
+        <div id="comments-box">
+            <c:forEach items="${sessionScope['comments']}" var="item">
+                <div class="comment">
+                    <p class="comment-username"><c:out value="${item.username}"/>:</p>
+                    <p class="userComments"><c:out value="${item.comment}"/></p>
+
+                    <p class="comment-time"><c:out value="${item.time}"/></p>
+
+                    <p class="heat">
+                        <c:out value="${item.hot}"/>
+                        <a>
+                            <span class="glyphicon glyphicon-thumbs-up"
+                                  onclick="agreeComment(${item.cid})"></span>
+                        </a>
+                    </p>
+                </div>
+            </c:forEach>
+        </div>
+    </div>
 </main>
 
 
 <script src="static/js/detail.js"></script>
 </body>
+
+<style>
+
+
+</style>
 
 </html>

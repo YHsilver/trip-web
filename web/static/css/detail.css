@@ -4,6 +4,51 @@ main {
 
 main > div {
     margin-left: 10%;
+    margin-right: 10%;
+}
+
+#bottom {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#comment-input {
+    width: 60%;
+}
+
+#orders {
+    margin-bottom: 10px;
+    margin-left: 80%;
+}
+
+#orders span {
+    margin-right: 10px;
+}
+
+.comment {
+    border: silver 1px solid;
+    padding: 5px;
+}
+.comment-username{
+    font-style: italic;
+}
+.comment-time{
+    font-style: initial;
+    font-size: 14px;
+}
+.userComments {
+    margin-left: 20px;
+
+}
+
+p, span {
+    font-family: "Arial", "sans-serif";
+    font-size: 16px;
+}
+
+.heat {
+    margin-left: 97%;
+    cursor: pointer;
 }
 
 #detail-name {
