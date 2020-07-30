@@ -2,89 +2,24 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="webPJ:war exploded" />
+      <artifact name="webPJ:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b97a8d-fa82-49f7-8cb6-e5dedda47ac9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/deleteFavorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/getCitiesServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/getFavorServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/getMyPictureServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/service/modifyPictureServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/favor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/friends.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/myPicture.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/paging.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/css/upload.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/js/favor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/js/friends.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/js/myPicture.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/static/js/paging.js" afterDir="false" />
+    <list default="true" id="56b97a8d-fa82-49f7-8cb6-e5dedda47ac9" name="Default Changelist" comment="&quot;add friends function&quot;">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/webPJ_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/webPJ_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/webPJ_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/e3bc8310-845c-4fac-997f-97bcb08eef07.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e3bc8310-845c-4fac-997f-97bcb08eef07.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/entity/Traveluser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/entity/Traveluser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/service/detailPageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/detailPageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/service/uploadServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/uploadServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/myUpload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimageDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TraveluserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/dao/TraveluserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/entity/Traveluser.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/entity/Traveluser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/detailPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/detailPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/uploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/service/uploadServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TravelimageDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TravelimageDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TraveluserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/WEB-INF/classes/com/test/TraveluserDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/favor.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/friends.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/friends.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/myUpload.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/upload.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimageDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TravelimagefavorDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TraveluserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/dao/TraveluserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/entity/Traveluser.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/entity/Traveluser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/detailPageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/detailPageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/uploadServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/service/uploadServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/GeocountriesRegionsDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TravelimageDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TravelimageDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TraveluserDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/test/TraveluserDAOTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/favor.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/favor.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/dao/CommentsDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dao/CommentsDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/service/addFriendServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/addFriendServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/service/getFriendsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/service/getFriendsServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/friends.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/friends.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/myUpload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/myPicture.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/nav.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/nav.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/search.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/search.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/search.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/static/js/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/upload.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/upload.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/js/friends.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/js/friends.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,27 +60,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="travels: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="travels@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="travels: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="geocontinents: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="travels@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="travels: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="travelimage: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="travels@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="travels: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="traveluser: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -163,31 +77,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/favor.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/friends.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="84">
+              <caret line="34" column="98" lean-forward="true" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/static/js/friends.js">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/service/getFriendsServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/static/css/friends.css">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/com/service/handleInvitationServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/service/addFriendServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/nav.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -198,45 +138,46 @@
         <option value="HTML File" />
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Jsp File" />
-        <option value="JavaScript File" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>index</find>
-      <find>;</find>
-      <find>input-group</find>
-      <find>2</find>
-      <find>style</find>
-      <find>reminder</find>
-      <find>ele.repassword</find>
-      <find>xmlHttp</find>
-      <find>document.getElementById(</find>
-      <find>.innerHTML=</find>
-      <find>let</find>
-      <find>swiperConfig</find>
-      <find>item</find>
-      <find>right</find>
-      <find>id</find>
-      <find>.search-middle</find>
-      <find>searchResult</find>
-      <find>页</find>
-      <find>title</find>
-      <find>country_input</find>
-      <find>_</find>
-      <find>medium</find>
       <find>travel-images</find>
       <find>/web/</find>
       <find>font</find>
       <find>save</find>
       <find>remove(</find>
-      <find>favor</find>
       <find>sessionScope</find>
+      <find>favor.js</find>
+      <find>favor</find>
+      <find>Favor</find>
+      <find>requestScope</find>
+      <find>.getFriendsUid().split</find>
+      <find>send</find>
+      <find>.save(</find>
+      <find>classes</find>
+      <find>banner-html5zoo</find>
+      <find>banner</find>
+      <find>swiper</find>
+      <find>Swiper</find>
+      <find>jquery</find>
+      <find>image/</find>
+      <find>image</find>
+      <find>images/</find>
+      <find>../images</find>
+      <find>backgroundClip</find>
+      <find>c</find>
+      <find>=e[i]</find>
+      <find>index</find>
+      <find>style</find>
+      <find>print</find>
+      <find>System</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -260,6 +201,13 @@
       <replace>/trip/</replace>
       <replace>myPic</replace>
       <replace>requestScope</replace>
+      <replace>friends</replace>
+      <replace>friendsFavor&quot;</replace>
+      <replace>friendsFavor</replace>
+      <replace>sessionScope</replace>
+      <replace>receiv</replace>
+      <replace>static/images/</replace>
+      <replace>../image/web-images</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -271,57 +219,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/static/js/xlPaging.js" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/xlPaging.js" />
-        <option value="$PROJECT_DIR$/src/com/service/searchServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/css/search.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/static/js/search.js" />
-        <option value="$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/test/GeocitiesDAOTest.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/search.jsp" />
-        <option value="$PROJECT_DIR$/src/com/entity/Travelimage.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/web/detail.jsp" />
-        <option value="$PROJECT_DIR$/web/nav.jsp" />
-        <option value="$PROJECT_DIR$/web/static/css/swiper.min.css" />
-        <option value="$PROJECT_DIR$/web/static/js/favor.css" />
-        <option value="$PROJECT_DIR$/web/detail.jsp" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/service/deleteFavorServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/test/c3p0test.java" />
-        <option value="$PROJECT_DIR$/src/com/entity/Traveluser.java" />
-        <option value="$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/com/dao/TraveluserDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/com/service/detailPageServlet.java" />
-        <option value="$PROJECT_DIR$/web/static/js/paging.js" />
-        <option value="$PROJECT_DIR$/web/static/js/search.js" />
-        <option value="$PROJECT_DIR$/web/static/css/search.css" />
-        <option value="$PROJECT_DIR$/web/static/css/paging.css" />
-        <option value="$PROJECT_DIR$/web/search.jsp" />
-        <option value="$PROJECT_DIR$/web/static/css/favor.css" />
-        <option value="$PROJECT_DIR$/web/static/js/myPicture.js" />
-        <option value="$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/service/getMyPictureServlet.java" />
-        <option value="$PROJECT_DIR$/web/favor.jsp" />
-        <option value="$PROJECT_DIR$/src/com/service/getFavorServlet.java" />
-        <option value="$PROJECT_DIR$/web/static/js/favor.js" />
         <option value="$PROJECT_DIR$/web/static/css/myPicture.css" />
-        <option value="$PROJECT_DIR$/web/static/css/upload.css" />
-        <option value="$PROJECT_DIR$/web/myPicture.jsp" />
-        <option value="$PROJECT_DIR$/src/com/service/getCitiesServlet.java" />
-        <option value="$PROJECT_DIR$/web/upload.jsp" />
-        <option value="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" />
-        <option value="$PROJECT_DIR$/web/static/js/upload.js" />
-        <option value="$PROJECT_DIR$/src/com/dao/TravelimageDAO.java" />
-        <option value="$PROJECT_DIR$/src/com/service/modifyPictureServlet.java" />
-        <option value="$PROJECT_DIR$/src/com/service/uploadServlet.java" />
-        <option value="$PROJECT_DIR$/web/static/js/friends.js" />
         <option value="$PROJECT_DIR$/web/static/css/friends.css" />
+        <option value="$PROJECT_DIR$/webPJ.iml" />
+        <option value="$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java" />
+        <option value="$PROJECT_DIR$/web/static/js/myPicture.js" />
+        <option value="$PROJECT_DIR$/web/static/css/Shopping.css" />
+        <option value="$PROJECT_DIR$/web/static/js/Shopping.js" />
+        <option value="$PROJECT_DIR$/src/com/test/c3p0test.java" />
+        <option value="$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java" />
+        <option value="$PROJECT_DIR$/src/com/entity/Travelimage.java" />
+        <option value="$PROJECT_DIR$/src/com/utils/codeUtils.java" />
+        <option value="$PROJECT_DIR$/web/static/js/upload.js" />
+        <option value="$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java" />
+        <option value="$PROJECT_DIR$/web/static/js/search.js" />
+        <option value="$PROJECT_DIR$/web/static/css/swiper.min.css" />
+        <option value="$PROJECT_DIR$/web/static/js/swiper.min.js" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/web/static/css/style.css" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/web/static/js/index.js" />
+        <option value="$PROJECT_DIR$/web/static/css/index.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded/static/js/jquery-3.3.1.min.js" />
+        <option value="$PROJECT_DIR$/web/demo.html" />
+        <option value="$PROJECT_DIR$/src/com/service/getFriendsFavorServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/service/detailPageServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/entity/Comments.java" />
+        <option value="$PROJECT_DIR$/src/com/service/getCommentsServlet.java" />
+        <option value="$PROJECT_DIR$/web/detail.jsp" />
+        <option value="$PROJECT_DIR$/web/static/css/detail.css" />
+        <option value="$PROJECT_DIR$/src/com/service/addCommentServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/service/agreeCommentServlet.java" />
+        <option value="$PROJECT_DIR$/web/static/js/detail.js" />
+        <option value="$PROJECT_DIR$/src/com/entity/Room.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/RoomRepository.java" />
+        <option value="$PROJECT_DIR$/src/com/service/uploadServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/RoomRepositoryImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/RoomDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/service/GetRoomMessageServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/service/SendChattingMessageServlet.java" />
+        <option value="$PROJECT_DIR$/web/upload.jsp" />
+        <option value="$PROJECT_DIR$/web/static/css/chattingRoom.css" />
+        <option value="$PROJECT_DIR$/web/static/js/chattingRoom.js" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/chattingRoom.jsp" />
+        <option value="$PROJECT_DIR$/src/com/service/ChattingRoomServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/dao/CommentsDAO.java" />
+        <option value="$PROJECT_DIR$/src/com/service/addFriendServlet.java" />
+        <option value="$PROJECT_DIR$/web/nav.jsp" />
+        <option value="$PROJECT_DIR$/src/com/service/getFriendsServlet.java" />
         <option value="$PROJECT_DIR$/web/friends.jsp" />
+        <option value="$PROJECT_DIR$/web/static/js/friends.js" />
       </list>
     </option>
   </component>
@@ -350,10 +298,10 @@
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1115" />
-    <option name="y" value="39" />
-    <option name="width" value="995" />
-    <option name="height" value="1064" />
+    <option name="x" value="1058" />
+    <option name="y" value="44" />
+    <option name="width" value="1005" />
+    <option name="height" value="1071" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -364,6 +312,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -387,28 +336,7 @@
               <item name="webPJ" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
@@ -423,13 +351,26 @@
             </path>
             <path>
               <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webPJ" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="webPJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -441,6 +382,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -448,7 +390,7 @@
     <property name="create.test.in.the.same.root" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/com/test" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/service" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -458,13 +400,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2565969" />
     <property name="settings.editor.selected.configurable" value="flex.compiler" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.entity" />
       <recent name="entity" />
       <recent name="" />
     </key>
@@ -477,20 +421,20 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\javaWeb\webPJ\web" />
-      <recent name="E:\javaWeb\webPJ\web\WEB-INF" />
-      <recent name="E:\javaWeb\webPJ\web\WEB-INF\classes\artifacts\web\static\js" />
-      <recent name="E:\javaWeb\webPJ\web\static\js" />
-      <recent name="E:\javaWeb\webPJ\web\WEB-INF\lib" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.service" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\javaWeb\webPJ\src\com\service" />
+      <recent name="E:\javaWeb\webPJ\src\com\dao" />
+      <recent name="E:\javaWeb\webPJ\src\com\entity" />
+      <recent name="E:\javaWeb\webPJ\web\WEB-INF\classes\artifacts\webPJ_war_exploded\static\js" />
+      <recent name="E:\javaWeb\webPJ\web\static\js" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\javaWeb\webPJ\web" />
       <recent name="E:\javaWeb\webPJ\web\static\css" />
       <recent name="E:\javaWeb\webPJ\web\static\image\web-images" />
-      <recent name="E:\javaWeb\webPJ\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -538,7 +482,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TravelimageDAOTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeocountriesRegionsDAOTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webPJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.GeocountriesRegionsDAOTest" />
+      <option name="METHOD_NAME" value="getAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvitationDAOTest.getBySenderAndReceiver" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webPJ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test" />
+      <option name="MAIN_CLASS_NAME" value="com.test.InvitationDAOTest" />
+      <option name="METHOD_NAME" value="getBySenderAndReceiver" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TravelimageDAOTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webPJ" />
       <extension name="coverage">
         <pattern>
@@ -548,39 +524,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.test" />
       <option name="MAIN_CLASS_NAME" value="com.test.TravelimageDAOTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraveluserDAOTest.getAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webPJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TraveluserDAOTest" />
       <option name="METHOD_NAME" value="getAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TraveluserDAOTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="webPJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test" />
-      <option name="MAIN_CLASS_NAME" value="com.test.TraveluserDAOTest" />
-      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -588,7 +532,6 @@
     </configuration>
     <configuration name="Tomcat 7.0.92" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.92" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER" value="false" />
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/trip/" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -656,26 +599,24 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="webPJ:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.GeocitiesDAOTest.getAll" />
-      <item itemvalue="JUnit.TravelimageDAOTest.save" />
-      <item itemvalue="JUnit.TraveluserDAOTest.save" />
-      <item itemvalue="JUnit.TraveluserDAOTest.getAll" />
-      <item itemvalue="Tomcat Server.Tomcat 7.0.92" />
       <item itemvalue="JUnit.GeocountriesRegionsDAOTest.get" />
+      <item itemvalue="JUnit.InvitationDAOTest.getBySenderAndReceiver" />
+      <item itemvalue="JUnit.GeocountriesRegionsDAOTest.getAll" />
+      <item itemvalue="JUnit.TravelimageDAOTest.getAll" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.92" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GeocountriesRegionsDAOTest.get" />
-        <item itemvalue="JUnit.TraveluserDAOTest.getAll" />
-        <item itemvalue="JUnit.TraveluserDAOTest.save" />
-        <item itemvalue="JUnit.TravelimageDAOTest.save" />
+        <item itemvalue="JUnit.GeocountriesRegionsDAOTest.getAll" />
+        <item itemvalue="JUnit.TravelimageDAOTest.getAll" />
+        <item itemvalue="JUnit.InvitationDAOTest.getBySenderAndReceiver" />
         <item itemvalue="JUnit.GeocitiesDAOTest.getAll" />
+        <item itemvalue="JUnit.GeocountriesRegionsDAOTest.get" />
       </list>
     </recent_temporary>
   </component>
@@ -714,43 +655,94 @@
       <workItem from="1595653704857" duration="3113000" />
       <workItem from="1595678036698" duration="21196000" />
       <workItem from="1595747494922" duration="25649000" />
+      <workItem from="1595835656229" duration="28860000" />
+      <workItem from="1595923240013" duration="15074000" />
+      <workItem from="1595938584756" duration="9263000" />
+      <workItem from="1595948031527" duration="2012000" />
+      <workItem from="1595950336187" duration="2601000" />
+      <workItem from="1596003812985" duration="5685000" />
+      <workItem from="1596025844528" duration="9656000" />
+      <workItem from="1596091248196" duration="13451000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;add friends function&quot;">
+      <created>1595867071959</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595867071959</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&quot;finish basic function&quot;">
+      <created>1595951216530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595951216530</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;fix path bug&quot;">
+      <created>1595951992290</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595951992290</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;divide css and js from jsp&quot;">
+      <created>1595952234406</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595952234406</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add comments function">
+      <created>1596034332989</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596034332989</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finish all function">
+      <created>1596100189298</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596100189298</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 50m 52s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 19h 48m 28s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 51m 31s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 19h 55m 14s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 52m 50s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 20h 29m 39s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 53m 19s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 20h 29m 52s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 55m 29s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 20h 30m 12s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 57m 23s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 20h 30m 27s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 57m 38s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 20h 30m 51s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 00h 57m 50s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 21h 04m 22s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TraveluserDAOTest_getAll - 2020.07.26 at 01h 00m 08s.xml">
-      <configuration name="TraveluserDAOTest.getAll" configurationId="JUnit" />
+    <history-entry file="TravelimageDAOTest_getAll - 2020.07.28 at 21h 06m 27s.xml">
+      <configuration name="TravelimageDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GeocountriesRegionsDAOTest_get - 2020.07.26 at 21h 40m 23s.xml">
-      <configuration name="GeocountriesRegionsDAOTest.get" configurationId="JUnit" />
+    <history-entry file="GeocountriesRegionsDAOTest_getAll - 2020.07.30 at 15h 01m 52s.xml">
+      <configuration name="GeocountriesRegionsDAOTest.getAll" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204926000" />
+    <option name="totallyTimeSpent" value="291528000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -765,16 +757,16 @@
     <frame x="-7" y="-7" width="1563" height="845" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48326054" visible="true" weight="0.22259136" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48034933" visible="true" weight="0.22724253" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.15946844" />
-      <window_info id="Web" order="2" sideWeight="0.5167394" side_tool="true" weight="0.22259136" />
+      <window_info id="Web" order="2" sideWeight="0.51965064" side_tool="true" weight="0.22458471" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Persistence" order="6" sideWeight="0.5007278" side_tool="true" weight="0.15813954" />
+      <window_info id="Persistence" order="6" sideWeight="0.51965064" side_tool="true" weight="0.22458471" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" weight="0.45560408" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" weight="0.426492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,29 +776,29 @@
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50099665" side_tool="true" weight="0.3245997" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49966776" weight="0.26637554" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50099665" side_tool="true" weight="0.26637554" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49900332" weight="0.26637554" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32896653" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32896653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24983388" />
-      <window_info anchor="right" id="Database" order="4" weight="0.2026578" />
+      <window_info anchor="right" id="Database" order="4" weight="0.18671097" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32956812" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.488" visible="true" weight="0.21196014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48034933" visible="true" weight="0.22724253" />
       <window_info id="Structure" order="1" sideWeight="0.5021834" side_tool="true" weight="0.15946844" />
-      <window_info active="true" id="Web" order="2" sideWeight="0.512" side_tool="true" visible="true" weight="0.21196014" />
+      <window_info id="Web" order="2" sideWeight="0.51965064" side_tool="true" weight="0.22458471" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Persistence" order="6" sideWeight="0.5007278" side_tool="true" weight="0.15813954" />
+      <window_info id="Persistence" order="6" sideWeight="0.51965064" side_tool="true" weight="0.22458471" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32896653" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" visible="true" weight="0.27219796" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49900332" weight="0.426492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988355" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -816,15 +808,15 @@
       <window_info anchor="bottom" id="SonarLint" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50099665" side_tool="true" weight="0.3245997" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49966776" weight="0.26637554" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50099665" side_tool="true" weight="0.26637554" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49900332" weight="0.26637554" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.32896653" />
       <window_info anchor="bottom" id="Database Console" order="15" weight="0.32896653" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="right" id="Palette" order="2" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.24983388" />
-      <window_info anchor="right" id="Database" order="4" weight="0.2026578" />
+      <window_info anchor="right" id="Database" order="4" weight="0.18671097" />
       <window_info anchor="right" id="Maven" order="5" weight="0.32956812" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout-to-restore>
@@ -832,351 +824,346 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;add friends function&quot;" />
+    <MESSAGE value="&quot;finish basic function&quot;" />
+    <MESSAGE value="&quot;fix path bug&quot;" />
+    <MESSAGE value="&quot;divide css and js from jsp&quot;" />
+    <MESSAGE value="add comments function" />
+    <MESSAGE value="finish all function" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish all function" />
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/dao/TravelimagefavorDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="84">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/searchServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="55" column="63" lean-forward="true" selection-start-line="55" selection-start-column="63" selection-end-line="55" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/c3p0test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/travelimagefavor">
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/comments">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="fc662599-b86b-4a9b-a687-a96ad13a7f46">
+        <state projectRestartId="a4449da9-19ea-4c41-b9cc-8a81f67d7a04">
           <filtering>
             <filter text="" />
           </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/TraveluserDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/TravelimageDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk11/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/Java/jdk11/lib/src.zip!/java.base/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="659" column="11" lean-forward="true" selection-start-line="659" selection-start-column="11" selection-end-line="659" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/TraveluserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Traveluser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1722">
-          <caret line="123" column="50" selection-start-line="123" selection-start-column="50" selection-end-line="123" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/detailPageServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="46" column="54" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/paging.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
-          <folding>
-            <element signature="e#40#7456#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/search.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="56" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/BaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/favor.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/paging.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1218">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/deleteMyPictureServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/deleteFavorServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/getMyPictureServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="52" column="51" lean-forward="true" selection-start-line="52" selection-start-column="51" selection-end-line="52" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/favor.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/myPicture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/myPicture.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/upload.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Geocontinents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/myPicture.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/search.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/getCitiesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Geocities.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/entity/GeocountriesRegions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocountries_regions">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/entity/Travelimage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#3158#3159#0" expanded="true" />
-            <element signature="e#3189#3190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/image/travel-images/medium/1595590055001.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/image/travel-images/medium/1595590413148.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding>
-            <element signature="e#1287#1293#1#HTML" expanded="true" />
-            <element signature="e#1540#1546#1#HTML" expanded="true" />
-            <element signature="e#3535#3541#1#HTML" expanded="true" />
-            <element signature="e#3975#3981#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#4;n#form#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4552#4558#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/geocities">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
-          <filtering>
-            <filter text="5913490" />
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocountriesRegionsDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/dao/TravelimageDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="26" column="100" selection-start-line="26" selection-start-column="100" selection-end-line="26" selection-end-column="100" />
+        <state relative-caret-position="-132">
+          <caret line="93" column="68" lean-forward="true" selection-start-line="93" selection-start-column="68" selection-end-line="93" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Comments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="21" column="67" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/myFavor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="939">
+          <caret line="123" column="6" lean-forward="true" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/myFavor.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/detail.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/detail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2163">
+          <caret line="127" column="34" selection-start-line="127" selection-start-column="34" selection-end-line="127" selection-end-column="34" />
+          <folding>
+            <element signature="n#!!block;n#addFavor#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/addCommentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="111" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/agreeCommentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/detailPageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/RoomRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/static/js/upload.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="210">
+          <caret line="145" column="39" lean-forward="true" selection-start-line="145" selection-start-column="39" selection-end-line="145" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/dao/GeocitiesDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/com/test/GeocountriesRegionsDAOTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="294">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/getFavorServlet.java">
+    <entry file="jar://E:/Java/jdk11/lib/src.zip!/java.base/java/net/URLDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="2094">
+          <caret line="236" column="21" lean-forward="true" selection-start-line="236" selection-start-column="21" selection-end-line="236" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/getMyPictureServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/RoomDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/service/modifyPictureServlet.java">
+    <entry file="jar://E:/Java/jdk11/lib/src.zip!/java.base/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1764">
-          <caret line="84" column="53" selection-start-line="84" selection-start-column="53" selection-end-line="84" selection-end-column="53" />
+        <state relative-caret-position="838">
+          <caret line="1661" column="15" selection-start-line="1661" selection-start-column="15" selection-end-line="1661" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#81254#81255#0" expanded="true" />
+            <element signature="e#81303#81304#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/service/uploadServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="127">
+          <caret line="87" column="57" lean-forward="true" selection-start-line="87" selection-start-column="57" selection-end-line="87" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/js/friends.js">
+    <entry file="file://$PROJECT_DIR$/src/com/dao/TraveluserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="28" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/entity/Traveluser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myFavor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/myPicture.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webPJ.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/upload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/friendFavor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="13" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/chattingRoom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="552" column="14" lean-forward="true" selection-start-line="552" selection-start-column="14" selection-end-line="552" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/chattingRoom.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/SendChattingMessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/GetRoomMessageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="41" column="46" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/ChattingRoomServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/chattingRoom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="75" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="75" />
+        <state relative-caret-position="123">
+          <caret line="38" column="6" lean-forward="true" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/static/css/friends.css">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/com/service/handleInvitationServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
-    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/travelimage">
+    <entry file="uml://JAVA/com.dao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dao</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dao.InvitationDAO</node>
+            <node x="" y="">com.dao.GeocountriesRegionsDAO</node>
+            <node x="" y="">com.dao.BaseDAO</node>
+            <node x="" y="">com.dao.GeocontinentsDAO</node>
+            <node x="" y="">com.dao.TravelimageDAO</node>
+            <node x="" y="">com.dao.TraveluserDAO</node>
+            <node x="" y="">com.dao.RoomDAO</node>
+            <node x="" y="">com.dao.CommentsDAO</node>
+            <node x="" y="">com.dao.GeocitiesDAO</node>
+            <node x="" y="">com.dao.TravelimagefavorDAO</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.7356103731815308" x="781.4999999999999" y="101.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/invitation">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
+        <state projectRestartId="4d1526ec-1567-48fb-803c-7189cc2c1852">
           <filtering>
             <filter text="" />
           </filtering>
@@ -1185,24 +1172,62 @@
     </entry>
     <entry file="das://e3bc8310-845c-4fac-997f-97bcb08eef07/schema/travels/table/traveluser">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="b4e394bc-ac2b-46eb-8b92-18b7da4542a7">
+        <state projectRestartId="4d1526ec-1567-48fb-803c-7189cc2c1852">
           <filtering>
             <filter text="" />
           </filtering>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/favor.jsp">
+    <entry file="file://$PROJECT_DIR$/src/com/service/addFriendServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="25" selection-start-line="25" selection-end-line="29" selection-end-column="2" />
+        <state relative-caret-position="7">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/getCommentsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dao/CommentsDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/js/friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="107" column="1" lean-forward="true" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/friends.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="84">
+          <caret line="34" column="98" lean-forward="true" selection-start-line="34" selection-start-column="98" selection-end-line="34" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/service/getFriendsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
@@ -1213,17 +1238,18 @@
         <settings>
           <artifact-editor>
             <show-content>
+              <type id="artifact" />
               <type id="library" />
               <type id="jpa-descriptors" />
-              <type id="artifact" />
               <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
-          <last-edited>webPJ:war exploded</last-edited>
+          <last-edited>webPJ:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2565969" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1231,7 +1257,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>JPA</last-edited>
+          <last-edited>web (webPJ)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1271,7 +1297,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2565969" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

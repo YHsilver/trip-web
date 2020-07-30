@@ -16,8 +16,8 @@
 <body>
 <c:import url="nav.jsp"/>
 <%
-    if (request.getSession().getAttribute("friends") == null) {
-        response.sendRedirect("/trip/getFriendsServlet");
+    if (request.getSession().getAttribute("username") == null) {
+        response.sendRedirect("index.jsp");
     }
 %>
 <div id="container">

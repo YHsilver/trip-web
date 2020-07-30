@@ -34,7 +34,7 @@ public class CommentsDAO extends BaseDAO<Comments> {
     }
 
     public List<Comments> getAllByHotForImg(int iid) {
-        String sql = "SELECT *FROM comments WHERE imageId = ? ORDER BY hot DESC";
+        String sql = "SELECT * FROM comments WHERE imageId = ? ORDER BY hot DESC";
         return getForList(sql,iid);
     }
 

@@ -1,10 +1,11 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" build-on-make="true" name="webPJ:war exploded">
-    <output-path>$PROJECT_DIR$/web/WEB-INF/classes/artifacts/webPJ_war_exploded</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/webPJ_war_exploded</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="webPJ" />
+          <element id="library" level="application" name="bootstrap-switch" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="module" name="JUnit5.3" module-name="webPJ" />

@@ -41,7 +41,8 @@ public class addFriendServlet extends HttpServlet {
 
         InvitationDAO ivdao = new InvitationDAO();
 
-        if (ivdao.getBySenderAndReceiver(user.getUid(),friend.getUid()).size()>0){
+        if (ivdao.getBySenderAndReceiver(user.getUid(),friend.getUid()).size()>0
+                ||ivdao.getBySenderAndReceiver(friend.getUid(),user.getUid()).size()>0){
             response.getWriter().println("{\"message\": \"You have invited\"}");
             return;
         }
