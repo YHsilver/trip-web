@@ -25,7 +25,7 @@
                                 <li><a href="myFavor.jsp">My Favorite</a></li>
                                 <li><a href="upload.jsp">Upload New</a></li>
                                 <li><a href="myPicture.jsp">My Upload</a></li>
-                                <li><a href="friends.jsp">Friends</a></li>
+                                <li><a href="/trip/getFriendsServlet">Friends</a></li>
                                 <li class="divider"></li>
                                 <li><a href="/trip/logoutServlet">Log Out</a></li>
                             </ul>

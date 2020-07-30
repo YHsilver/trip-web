@@ -65,7 +65,9 @@ public class getFriendsServlet extends HttpServlet {
             iv.setSenderEmail(sender.getEmail());
         }
 
+
         request.getSession().setAttribute("myInvitation", invitations);
         response.getWriter().println("{\"message\": \"success\"}");
+        request.getRequestDispatcher("friends.jsp").forward(request,response);
     }
 }

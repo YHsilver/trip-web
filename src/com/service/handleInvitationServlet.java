@@ -63,7 +63,7 @@ public class handleInvitationServlet extends HttpServlet {
             }
 
 
-            receivList.add("" + receiver.getUid());
+            receivList.add("" + sender.getUid());
             receiver.setFriendsUid(String.join(",", receivList));
             udao.update(receiver);
 

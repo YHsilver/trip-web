@@ -107,17 +107,18 @@ function handleInvitation(type, iid) {
 
 }
 
-$(function() {
-    $.ajax({
-        url: "/trip/getFriendsServlet",
-        type: 'get',
-        dataType: 'json',
-        success: function (resp) {
-            if (resp.message == "success") {
-                $("#friendsList").load(location.href + " #friendsList");
-            } else {
-                alert(resp.message)
-            }
-        }
-    })
-});
+//
+// $(function() {
+//     $.ajax({
+//         url: "/trip/getFriendsServlet",
+//         type: 'get',
+//         dataType: 'json',
+//         success: function (resp) {
+//             if (resp.message == "success") {
+//                 $("#friendsList").load(location.href + " #friendsList");
+//             } else {
+//                 alert(resp.message)
+//             }
+//         }
+//     })
+// });
