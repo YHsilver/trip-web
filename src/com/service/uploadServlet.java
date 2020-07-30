@@ -20,7 +20,9 @@ import javax.servlet.http.Part;
 
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 import java.util.Date;
 import java.util.List;
 
@@ -66,7 +68,7 @@ public class uploadServlet extends HttpServlet {
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        request.setCharacterEncoding("utf-8");
+
         String username = (String) request.getSession().getAttribute("username");
         if (username == null || username.equals("")) {
             response.getWriter().println("{\"message\": \"user_not_exist\"}");
@@ -85,6 +87,7 @@ public class uploadServlet extends HttpServlet {
         String description = request.getParameter("description");
         String country = request.getParameter("country");
         String city = request.getParameter("city");
+
 
         String savePath = request.getServletContext().getRealPath("/static/image/travel-images");
         Part part = request.getPart("file");

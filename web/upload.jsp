@@ -1,5 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" pageEncoding="utf-8" language="java" %>
 <html>
 <head>
     <link href="static/css/reset.css" rel="stylesheet">
@@ -115,7 +115,8 @@
             </div>
         </div>
 
-        <input type="button" class="btn btn-default col-md-offset-9" value="Submit" id="submit-btn" onclick="upload(<c:out value="${requestScope.myLoad.imageId}"/>)">
+        <input type="button" class="btn btn-default col-md-offset-9" value="Submit" id="submit-btn"
+               onclick="upload(<c:out value="${requestScope.myLoad.imageId}"/>)">
     </form>
 
 

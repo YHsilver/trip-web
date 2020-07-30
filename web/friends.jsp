@@ -32,6 +32,7 @@
                         <p class="friends-dateJoined">Date Joind: <c:out value="${item.dateJoined}"/></p>
                         <div class="operation col-md-4">
                             <a href="/trip/getFriendsFavorServlet?uid=<c:out value="${item.uid}"/>">His Favor</a>
+                            <a style="float: right;" href="/trip/chattingRoomServlet?targetUser=<c:out value="${item.userName}"/>">chat</a>
                         </div>
                     </div>
                 </div>
@@ -105,7 +106,6 @@
                 </tr>
                 </thead>
                 <tbody>
-
 
                 <c:forEach items="${sessionScope['myInvitation']}" var="item">
                     <tr>

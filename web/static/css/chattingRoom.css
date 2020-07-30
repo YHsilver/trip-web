@@ -1,0 +1,21 @@
+#main-box {
+    width: 95%;
+    margin-bottom: 50px;
+
+}
+
+#message {
+    margin-left: 2%;
+    margin-bottom: 50px;
+}
+
+#history_messages {
+    width: 90%;
+    height: 60%;
+    font-size: 20px;
+}
+
+#message_send_input {
+    width: 100%;
+    font-size: 20px;
+}
