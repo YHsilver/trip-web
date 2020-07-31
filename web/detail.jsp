@@ -515,7 +515,7 @@
                     <input type="button" class="btn btn-primary"
                     <c:if test="${sessionScope.username==null||sessionScope.username==''}">
                         <c:out value="disabled='disabled'"/>
-                    </c:if> onclick="addFavor(<%=session.getAttribute("username")%>,${sessionScope.image.getImageId()})"
+                    </c:if> onclick="addFavor('<c:out value="${sessionScope.username}"/>',${sessionScope.image.getImageId()})"
                            value="Add to My Favor" id='addCart'>
                 </div>
 
